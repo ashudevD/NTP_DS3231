@@ -3,8 +3,12 @@
  * Example showing time sync to NTP time source
  *
  * This sketch uses the ESP8266WiFi library
- * this is a test script in order to set up ds 3231 prior to that
- * proper format time testing is needed
+ * please follow the connection diagram as
+ * Nodemcu   -   DS3231
+ * D1        -    SCL
+ * D2        -    SDA
+ * 3.3V      -    VCC
+ * GND       -    GND 
  */
 
  #if defined(ESP8266)
